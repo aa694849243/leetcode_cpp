@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.19)
+project(leetcode)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(Offer_03 offer/Offer_03.cpp)
+add_executable(offer53 offer/offer53.cpp)
+add_executable(offer21 offer/offer21.cpp)
+add_executable(offer32-2 offer/offer32-2.cpp)
+add_executable(offer50 offer/offer50.cpp)
+add_executable(offer61 offer/offer61.cpp)
+add_executable(test offer/test.cpp)
+add_executable(8_10 offer/8_10.cpp)
+add_executable(1490 main/1480.cpp)
+file(GLOB LCA_PLAY "C:/Users/caoji/AppData/Roaming/JetBrains/CLion2021.3/practices/Workspace/Playground.cpp")
+add_executable(lca-play ${LCA_PLAY})
